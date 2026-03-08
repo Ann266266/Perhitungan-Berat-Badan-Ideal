@@ -1,3 +1,4 @@
+index.html
 # Program menghitung berat badan ideal
 tinggi = float(input("masukkan tinggi badan(cm): "))
 
