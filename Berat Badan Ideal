@@ -1,10 +1,31 @@
-program.py
-# Program menghitung berat badan ideal
-tinggi = float(input("masukkan tinggi badan(cm): "))
+<!DOCTYPE html>
+<html>
+<head>
+<title>Perhitungan Berat Badan Ideal</title>
+<head>
 
-hasil1 = tinggi - 100
-hasil2 = hasil1 * 0.10
-berat_ideal = hasil1 - hasil2
+<body>
 
-print("Berat badan ideal adalah:"
-berat_ideal, "kg")
+<H1>Perhitungan Berat Badan Ideal</h1>
+
+<P>Masukkan tinggi badan (cm):</p>
+<input type="number" id="tinggi">
+
+<button onclick="hitung()">Hitung</button>
+
+<p id="hasil"></p>
+
+<script>
+function hitung() {
+let itnggi =
+document.getElementById("tinggi").value;
+let hasil1 = tinggi - 100
+let hasil2 = hasil1 * 0.10;
+let hasil3 = hasil1 - hasil2;
+
+document.getElementById("hasil").innerHTML = "Berat Badaan Ideal adalah: " + berat + "kg";
+}
+</script>
+
+</body>
+<?html>
